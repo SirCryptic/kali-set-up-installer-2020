@@ -12,9 +12,9 @@ simple setup script for Kali Linux 2020 latest update
 - Then use the following command
 ' ./setup.sh '
 
--If this does not work then use this command
+- If this does not work then use this command
 ' chmod x+u setup.sh '
--Now you should be able use the previouse command.
+- Now you should be able use the previouse command.
 
 
 # What does this script do?
