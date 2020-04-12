@@ -3,17 +3,20 @@ simple setup script for Kali Linux 2020 latest update
 
 # How To use this script?
 
-- first clone this repo using the following command:
-'git clone https://github.com/SirCryptic/setup.sh -unzip'
-
-- Login as root user 
+- First Login as root user 
 'sudo su'
 
-- Then use the following command
+- Secondly, go to root directory using th following command:
+' cd '
+
+- Thirdly clone this repo using the following command:
+'git clone https://github.com/SirCryptic/setup.sh -unzip'
+
+- Lastly use the following command
 ' ./setup.sh '
 
-- If this does not work then use this command
-' chmod x+u setup.sh '
+# If this does not work then use this command
+' chmod u+x setup.sh '
 - Now you should be able use the previouse command.
 
 
