@@ -7,9 +7,7 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 echo "NULLSec setup script v1.0.0"
-echo "BEFORE YOU PROCEED YOU MUST LOGIN AS ROOT!"
-echo "TO DO THIS TYPE 'sudo su' THEN 'cd'"
-echo "UNTILL I FIND A WORK AROUND THANKYOU! ~SirCryptic"
+echo "Created By ~SirCryptic"
 echo "would you like to install? [y/n]"
 
 	read input
