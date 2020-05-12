@@ -1,6 +1,6 @@
 #!/bin/bash
 #lamp
-# NULLSec Setup Script v1.0.0
+# NULLSec Setup Script v1.0.2 [BETA]
 if [[ $EUID -ne 0 ]]; then
    echo "This script must be run as root" 
    exit 1
@@ -31,13 +31,16 @@ echo "would you like to install? [y/n]"
 	sudo apt-get install openvpn -y
 	sudo apt-get install tor -y
 	sudo apt install torbrowser-launcher -y
-
 	sudo apt-get update && apt-get upgrade -y
 	sudo apt-get cowsay -y
 	sudo apt-get fortune -y
+	sudo apt-get install libpcap-dev -y
+	sudo apt-get install python-dev -y
+	sudo apt-get install libpq-dev -y
 	curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py -y
 	sudo python get-pip.py -y
 	rm get-pip.py
+	pip install psycopg2 -y
 	wget https://github.com/busyloop/lolcat/archive/master.zip
 	unzip master.zip
 	cd lolcat-master/bin
