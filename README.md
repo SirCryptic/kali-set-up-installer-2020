@@ -12,8 +12,11 @@ simple setup script for Kali Linux 2020 latest update
 - Thirdly clone this repo using the following command:
 'git clone https://github.com/SirCryptic/setup.sh -unzip'
 
+- now go into the repo downloaded directory
+' cd kali-set-up-installer-2020 '
+
 - Lastly use the following command
-' ./setup.sh '
+' bash setup.sh '
 
 # If this does not work then use this command
 ' chmod u+x setup.sh '
@@ -26,10 +29,10 @@ simple setup script for Kali Linux 2020 latest update
 
 it will install alot of dependencies used for alot of tools on kali
 
-everything it installs: wine, mono , pip , tor / tor browser , openvpn , htop - (basically task manager) , cowsay , fortune & lolcat
+everything it installs: wine, mono , pip , tor / tor browser , openvpn , psycopg2 , python dev tools, libpcap-dev , libpq-dev ,htop - (basically task manager) , cowsay , fortune & lolcat
 
 # NOTE: I CREATED THIS TO ELIMINATE CRAWLING THROUGH NUMEROUSE POST'S & THREADS ONLINE FOR PACKAGES I NEED IN CASE I NEED TO RESET MY LAPTOP AGAIN.
 
 # feel free to fork this project of mine and improve upon it :)
-
+# updated 12/05/20 @ 1:14am
 # ~SirCryptic
