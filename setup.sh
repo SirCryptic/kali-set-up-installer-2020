@@ -1,12 +1,20 @@
 #!/bin/bash
 #lamp
-# NULLSec Setup Script v1.0.2 [BETA]
+# NULLSec Setup Script v1.0.4 [BETA]
 if [[ $EUID -ne 0 ]]; then
    echo "This script must be run as root" 
    exit 1
 fi
-
-echo "NULLSec setup script v1.0.0"
+clear
+echo -e '\e[1;33m
+ _______   ____ ___.____    .____       _________              
+ \      \ |    |   \    |   |    |     /   _____/ ____   ____  
+ /   |   \|    |   /    |   |    |     \_____  \_/ __ \_/ ___\ 
+/    |    \    |  /|    |___|    |___  /        \  ___/\  \___ 
+\____|__  /______/ |_______ \_______ \/_______  /\___  >\___  >
+        \/NULLSecurity Team\/       \/        \/     \/     \/ \e[1;34m
+'
+echo "NULLSec Setup Script v1.0.4"
 echo "Created By ~SirCryptic"
 echo "would you like to install? [y/n]"
 
@@ -26,7 +34,18 @@ echo "would you like to install? [y/n]"
 	sudo apt-get update && apt-get upgrade -y
 
 	sudo dpkg --add-architecture i386 && apt-get update &&> apt-get install wine32 -y
-
+	sudo apt-get install libcurl4-openssl-dev -y
+	sudo apt-get install libssl-dev -y
+	make
+	sudo make install
+	cd
+	git clone https://github.com/ZerBea/hcxtools.git
+	cd hcxtools
+	make
+	sudo make install
+	echo "cd"
+	sudo apt-get install python-dev -y
+	sudo apt-get install libssl-dev libz-dev libpcap-dev -y
 	sudo apt-get install winetricks -y
 	sudo apt-get install openvpn -y
 	sudo apt-get install tor -y
