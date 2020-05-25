@@ -29,7 +29,7 @@ simple setup script for Kali Linux 2020 latest update
 
 it will install alot of dependencies used for alot of tools on kali
 
-everything it installs: wine, mono , pip , tor / tor browser , openvpn , psycopg2 , python dev tools, libpcap-dev , libpq-dev ,htop - (basically task manager) , cowsay , fortune & lolcat
+everything it installs: wine, mono , pip , tor / tor browser , openvpn , psycopg2 , python dev tools, libpcap-dev ,libcurl4-openssl-dev, libpq-dev ,hcxtools, libssl-dev, htop - (basically task manager) , cowsay , fortune & lolcat
 
 # NOTE: I CREATED THIS TO ELIMINATE CRAWLING THROUGH NUMEROUSE POST'S & THREADS ONLINE FOR PACKAGES I NEED IN CASE I NEED TO RESET MY LAPTOP AGAIN.
 
